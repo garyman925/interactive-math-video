@@ -1,0 +1,53 @@
+// Chapter boundaries checked against the approved v02 English_Subtitles.srt.
+// 04:47 in Chapters.txt intersects a sentence; 287.4 is in the following gap.
+export const lesson = {
+  title: '一次方程：從天平開始',
+  version: 'LinearEquations_English_Clay_Full_v02',
+  src: './media/LinearEquations_English_Clay_Full_v02.mp4',
+  duration: 9095 / 30,
+  questions: [{
+    id: 'keep-equal', at: 82.95,
+    prompt: '解方程時，為甚麼要在兩邊做相同的加減運算？',
+    options: ['讓 x 更快變成正數', '讓兩邊的數字都變小', '保持等式兩邊相等'],
+    answer: 2,
+    hints: ['x 不一定是正數。想想天平平衡時，左右兩邊有甚麼關係。', '加法也可能令數字變大。重點是運算後，左右兩邊的關係有沒有改變。', ''],
+    explanation: '對了！兩邊加上或減去同一個數，才能保持原來相等的關係。目的不是把數字變小。',
+    reviewTitle: '天平怎樣恢復平衡', reviewStart: 28, reviewEnd: 45.82,
+  }, {
+    id: 'every-term', at: 138.35,
+    prompt: '把 (x + 1) ÷ 3 + x ÷ 2 = 7 兩邊乘以 6 時，哪個做法才能保持等式成立？',
+    options: ['左邊每一項和右邊的 7 都乘以 6', '只把左邊的兩個分數乘以 6', '左邊乘以 6，右邊加上 6'],
+    answer: 0,
+    hints: ['', '右邊的 7 雖然沒有分母，它也是等式的一邊。只改左邊，兩邊還會相等嗎？', '一邊乘法、一邊加法，是同一個運算嗎？想想怎樣保持兩邊相等。'],
+    explanation: '對了！「兩邊乘以 6」包括左邊每一項，也包括右邊的 7，不能因為它沒有分母就漏掉。',
+    reviewTitle: '消去分母時，兩邊要做甚麼', reviewStart: 116.5, reviewEnd: 126.4,
+  }, {
+    id: 'check-original', at: 211.95,
+    prompt: '算出 x = 8 後，怎樣確認它真的是原來那條方程的解？',
+    options: ['只檢查最後一行的除法', '把 8 代入原方程，分別計算兩邊，看是否相等', '看到答案是整數，就可以確定'],
+    answer: 1,
+    hints: ['最後一步算對，也可能沿用了前面寫錯的方程。應該回到哪一條式子檢查？', '', '整數也可能是錯誤答案。解必須符合原方程的哪個關係？'],
+    explanation: '對了！代回原方程，確認左右兩邊相等，才能檢查答案是否符合原題；只看最後一步不夠。',
+    reviewTitle: '為甚麼要回到原方程驗算', reviewStart: 204.7, reviewEnd: 211.95,
+  }, {
+    id: 'isolate-x', at: 236.7,
+    prompt: 'x − 2 = 5。要讓左邊只剩下 x，應該怎樣做？',
+    options: ['只在左邊加 2', '兩邊同時加 2', '兩邊同時減 2'],
+    answer: 1,
+    hints: ['只改一邊，兩邊還能保持相等嗎？想想天平怎樣保持平衡。', '', '左邊已有 −2，再減 2 會把它抵消嗎？試想哪個運算能抵消減法。'],
+    explanation: '對了！兩邊同時加 2，既能抵消左邊的 −2，也能保持等式成立。繼續看看影片怎樣驗算。',
+    reviewTitle: '怎樣保持等式成立', reviewStart: 67.3, reviewEnd: 83,
+  }],
+  chapters: [
+    {start: 0, end: 67.3, title: '不打開袋子，怎樣知道它有多重？'},
+    {start: 67.3, end: 99.2, title: '為甚麼兩邊要保持相等？'},
+    {start: 99.2, end: 127.2, title: '方程有分數，可以怎樣開始？'},
+    {start: 127.2, end: 159.3, title: '這個解法，哪一步出了問題？'},
+    {start: 159.3, end: 204.7, title: '再試一次，怎樣處理每一項？'},
+    {start: 204.7, end: 228.3, title: '怎樣知道答案真的正確？'},
+    {start: 228.3, end: 249.6, title: '換一道題，你會怎樣做？'},
+    {start: 249.6, end: 274.3, title: '遇到負數，方法還適用嗎？'},
+    {start: 274.3, end: 287.4, title: '回到袋子，答案符合原來的天平嗎？'},
+    {start: 287.4, end: 9095 / 30, title: '解方程時，要記住哪些習慣？'},
+  ],
+};

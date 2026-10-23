@@ -1,0 +1,383 @@
+1
+00:00:00,200 --> 00:00:04,067
+Let's find out how much one bag of lab materials weighs.
+
+2
+00:00:04,067 --> 00:00:06,800
+Can we do it without opening the bag?
+
+3
+00:00:07,600 --> 00:00:11,733
+The left pan has two bags of the same weight, and three small weights.
+
+4
+00:00:11,733 --> 00:00:13,567
+There are eleven weights on the right.
+
+5
+00:00:13,767 --> 00:00:16,433
+Each small weight is one unit.
+
+6
+00:00:16,433 --> 00:00:19,000
+Let x be the weight of one bag.
+
+7
+00:00:19,000 --> 00:00:23,100
+The scales are balanced, so both sides have the same total weight.
+
+8
+00:00:23,300 --> 00:00:27,633
+So we can write that as two x plus three equals eleven.
+
+9
+00:00:28,033 --> 00:00:30,833
+What if I just take the three weights off the left side?
+
+10
+00:00:31,033 --> 00:00:32,067
+Oh!
+
+11
+00:00:32,067 --> 00:00:33,567
+The right side has dropped.
+
+12
+00:00:33,567 --> 00:00:35,433
+Now the two sides aren't balanced.
+
+13
+00:00:35,633 --> 00:00:37,700
+Let's put those weights back.
+
+14
+00:00:37,700 --> 00:00:40,300
+How can we keep both sides balanced?
+
+15
+00:00:40,500 --> 00:00:42,967
+Take three weights off each side.
+
+16
+00:00:42,967 --> 00:00:45,700
+That's subtracting three from both sides.
+
+17
+00:00:45,900 --> 00:00:49,100
+Two bags on the left, eight weights on the right.
+
+18
+00:00:49,100 --> 00:00:51,067
+So two x equals eight.
+
+19
+00:00:51,467 --> 00:00:54,333
+Two bags weigh eight units altogether.
+
+20
+00:00:54,333 --> 00:00:55,967
+So how much does one bag weigh?
+
+21
+00:00:56,167 --> 00:00:59,233
+Split each side into two equal groups.
+
+22
+00:00:59,233 --> 00:01:02,067
+Then compare one group from each side.
+
+23
+00:01:02,267 --> 00:01:04,967
+One bag balances four weights.
+
+24
+00:01:04,967 --> 00:01:06,967
+So x equals four.
+
+25
+00:01:07,600 --> 00:01:11,967
+We changed the amounts on both sides, but the two sides stayed equal.
+
+26
+00:01:13,133 --> 00:01:16,667
+We can add or subtract the same number on both sides.
+
+27
+00:01:16,667 --> 00:01:21,100
+We can also multiply or divide both sides by the same non-zero number.
+
+28
+00:01:21,100 --> 00:01:22,800
+That keeps the equation true.
+
+29
+00:01:23,100 --> 00:01:25,200
+Why does the number have to be non-zero?
+
+30
+00:01:27,200 --> 00:01:30,133
+Division by zero is undefined.
+
+31
+00:01:30,133 --> 00:01:34,967
+Multiplying both sides by zero leaves us with zero equals zero.
+
+32
+00:01:34,967 --> 00:01:38,400
+That tells us nothing about the original value of x.
+
+33
+00:01:39,533 --> 00:01:42,267
+Now let's try a fraction equation.
+
+34
+00:01:42,267 --> 00:01:44,767
+The denominators are numbers.
+
+35
+00:01:44,767 --> 00:01:46,867
+Neither of them contains x.
+
+36
+00:01:47,167 --> 00:01:50,500
+The quantity x plus one, divided by three,
+
+37
+00:01:50,500 --> 00:01:53,700
+plus x divided by two, equals seven.
+
+38
+00:01:53,700 --> 00:01:55,767
+How can we get rid of the denominators?
+
+39
+00:01:56,900 --> 00:02:01,067
+The lowest common multiple of three and two is six.
+
+40
+00:02:01,067 --> 00:02:03,800
+So we multiply both sides by six.
+
+41
+00:02:03,800 --> 00:02:06,000
+That will clear both denominators.
+
+42
+00:02:07,400 --> 00:02:12,533
+I get two times the quantity x plus one, plus three x, equals seven.
+
+43
+00:02:12,967 --> 00:02:15,733
+Working that out gives x equals one.
+
+44
+00:02:15,733 --> 00:02:18,133
+But did you multiply the right side by six?
+
+45
+00:02:18,600 --> 00:02:22,200
+Let's check, rather than just trusting the working.
+
+46
+00:02:22,200 --> 00:02:24,933
+Put one back into the original equation.
+
+47
+00:02:25,367 --> 00:02:29,067
+The left side is two thirds plus one half.
+
+48
+00:02:29,067 --> 00:02:30,867
+That's seven sixths.
+
+49
+00:02:30,867 --> 00:02:33,267
+It isn't equal to seven on the right!
+
+50
+00:02:33,733 --> 00:02:34,700
+Oh!
+
+51
+00:02:34,700 --> 00:02:37,233
+I only multiplied the left side by six.
+
+52
+00:02:37,233 --> 00:02:38,567
+I changed the equation!
+
+53
+00:02:39,667 --> 00:02:42,933
+Let's start again from the original equation.
+
+54
+00:02:42,933 --> 00:02:47,600
+Multiply every term on the left by six, and the seven on the right too.
+
+55
+00:02:48,067 --> 00:02:50,867
+Six divided by three is two.
+
+56
+00:02:50,867 --> 00:02:53,800
+Six divided by two is three.
+
+57
+00:02:53,800 --> 00:02:57,467
+And on the right, six times seven is forty-two.
+
+58
+00:02:57,467 --> 00:03:02,467
+So two times the quantity x plus one, plus three x, equals forty-two.
+
+59
+00:03:02,933 --> 00:03:06,267
+Multiply every term inside the brackets by two.
+
+60
+00:03:06,267 --> 00:03:10,033
+That gives two x plus two, plus three x.
+
+61
+00:03:10,033 --> 00:03:14,733
+Collect like terms: five x plus two equals forty-two.
+
+62
+00:03:15,200 --> 00:03:17,467
+Subtract two from both sides.
+
+63
+00:03:17,467 --> 00:03:19,233
+Five x equals forty.
+
+64
+00:03:19,700 --> 00:03:22,267
+Then divide both sides by five.
+
+65
+00:03:22,267 --> 00:03:23,967
+So x equals eight.
+
+66
+00:03:25,067 --> 00:03:28,933
+We still need to check our answer in the original equation.
+
+67
+00:03:28,933 --> 00:03:31,767
+Checking only the last step isn't enough.
+
+68
+00:03:32,200 --> 00:03:34,167
+Put eight in for x.
+
+69
+00:03:34,167 --> 00:03:38,500
+On the left, add eight and one, then divide by three.
+
+70
+00:03:38,500 --> 00:03:41,100
+Then add eight divided by two.
+
+71
+00:03:41,533 --> 00:03:44,900
+That's three plus four, which equals seven.
+
+72
+00:03:44,900 --> 00:03:46,300
+Both sides are equal.
+
+73
+00:03:46,300 --> 00:03:47,733
+Our answer checks out!
+
+74
+00:03:48,833 --> 00:03:50,233
+Your turn.
+
+75
+00:03:50,233 --> 00:03:52,867
+X minus two equals five.
+
+76
+00:03:52,867 --> 00:03:56,400
+What should we do to both sides to leave x on its own?
+
+77
+00:03:58,200 --> 00:04:00,133
+Add two to both sides!
+
+78
+00:04:00,133 --> 00:04:01,833
+So x equals seven.
+
+79
+00:04:02,267 --> 00:04:07,233
+Check it in the original equation: seven minus two equals five.
+
+80
+00:04:07,233 --> 00:04:08,900
+Both sides are equal.
+
+81
+00:04:10,000 --> 00:04:12,933
+Our scales use positive weights.
+
+82
+00:04:12,933 --> 00:04:16,000
+But algebra also works with negatives.
+
+83
+00:04:16,000 --> 00:04:19,433
+We can still do the same operation on both sides.
+
+84
+00:04:19,867 --> 00:04:23,300
+For example, negative two x equals six.
+
+85
+00:04:23,300 --> 00:04:26,033
+Divide by negative two on both sides.
+
+86
+00:04:26,033 --> 00:04:28,200
+That gives x equals negative three.
+
+87
+00:04:28,667 --> 00:04:32,367
+Negative two times negative three equals six.
+
+88
+00:04:32,367 --> 00:04:33,700
+That checks out too.
+
+89
+00:04:34,800 --> 00:04:36,467
+Back to our bags.
+
+90
+00:04:36,467 --> 00:04:39,000
+Each bag weighs four units.
+
+91
+00:04:39,000 --> 00:04:42,333
+Let's put that value back into the original balance.
+
+92
+00:04:42,767 --> 00:04:47,167
+Two bags plus three weights: two times four plus three equals eleven!
+
+93
+00:04:47,633 --> 00:04:50,300
+Do the same operation on both sides.
+
+94
+00:04:50,300 --> 00:04:53,333
+Multiply or divide by a non-zero number.
+
+95
+00:04:53,333 --> 00:04:58,367
+For fractions, multiply every term on both sides by the lowest common multiple.
+
+96
+00:04:58,367 --> 00:05:01,200
+Then always check your answer in the original equation.

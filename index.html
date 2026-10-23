@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一次方程｜數學放映室</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><a href="./" class="brand"><span class="brand-mark" aria-hidden="true">＝</span>數學放映室</a><span class="prototype">試用原型</span></header>
+  <main>
+    <div class="intro"><div><p class="subject">高年級數學 <span>英文影片／中文操作介面</span></p><h1>一次方程：從天平開始</h1><p class="lede">跟着故事理解，再回到你想弄懂的那一步。</p></div><span class="duration">10 個段落 <b>5 分 03 秒</b></span></div>
+    <div class="workspace">
+      <section class="viewer" aria-label="影片與學習控制">
+        <div class="video-shell"><video id="video" controls playsinline preload="auto" aria-label="一次方程英文教學影片"></video></div>
+        <p id="error" role="alert" hidden></p>
+        <fieldset id="controls" disabled>
+          <legend class="sr-only">觀看控制</legend>
+          <div class="think-setting"><label><input id="questions-enabled" type="checkbox" checked> 想一想，再繼續</label><span>在影片的提問處停一停，自己試答。</span></div>
+          <section id="question-panel" class="question-panel" hidden aria-labelledby="question-title">
+            <p class="question-label">想一想，再繼續</p><h2 id="question-title" tabindex="-1"></h2>
+            <div id="question-options" class="question-options" role="group" aria-label="選擇答案"></div>
+            <p id="question-feedback" role="status"></p>
+            <div class="actions"><button id="question-review">重看相關解說</button><button id="question-continue" class="primary" hidden>繼續觀看</button><button id="question-skip">先繼續觀看</button></div>
+            <p class="question-note">可以再試，不計分，也不會儲存你的答案。</p>
+          </section>
+          <section id="explanation-panel" class="stop-panel" hidden><p id="explanation-message"></p><button id="back-question">返回問題</button></section>
+          <div class="settings"><div class="mode" role="group" aria-label="觀看模式"><button id="continuous" aria-pressed="true">完整連播</button><button id="step" aria-pressed="false">逐段學習</button></div><label class="speed">播放速度 <select id="speed" aria-label="播放速度"><option value="1">1× 原速</option><option value="0.75">0.75× 慢速</option></select></label></div>
+          <p id="mode-help" class="mode-help">順着故事看下去，也可以隨時選一個問題跳看。</p>
+          <div class="current"><span id="chapter-number">第 1 / 10 段</span><h2 id="current-title"></h2><div class="actions"><button id="replay" class="primary">↺ 重看這一段</button><button id="return" disabled>返回剛才位置</button></div><p id="bookmark" class="bookmark">跳看其他段落後，可以回到這裏。</p></div>
+          <section id="stop-panel" class="stop-panel" hidden aria-label="段落完成"><p id="stop-message" role="status"></p><div class="actions"><button id="again">再看一次</button><button id="next" class="primary">繼續下一段</button></div></section>
+        </fieldset>
+        <p id="status" class="status" role="status">正在載入影片…</p>
+      </section>
+      <aside class="chapters" aria-labelledby="nav-title"><div class="nav-heading"><span class="nav-symbol" aria-hidden="true">?</span><div><h2 id="nav-title">你想弄懂哪一步？</h2><p>選一個問題，從那裏開始看。</p></div></div><nav id="chapter-list" aria-label="影片章節"></nav><p class="nav-note">不用一次全懂。停一停、再看一次也可以。</p></aside>
+    </div>
+    <footer><span>影片保留原有英文配音與英文字幕。</span><span>互動原型待試用確認 · <a href="./CREDITS.txt">音樂署名</a></span></footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
